@@ -11,7 +11,7 @@ function Item.addShapedRecipe(462, 4, 0, [
 function newLevel() {
 	clientMessage(ChatColor.YELLOW+"Fast Food mod created by @HeroGamingZ");
 }
-function procCmd(comand){
+function procCmd(command){
 	var cmd = command.split("");
 	if(cmd[0] == "recipe"){
 		clientMessage(ChatColor.GOLD+"Food Recipes:");
