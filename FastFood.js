@@ -1,5 +1,6 @@
-ModPE.setFoodItem (483, "hamburger", 0, 1,"Hamburger", 4); //Burger recipe
-Item.addShapedRecipe(462, 4, 0, [
+ModPE.setFoodItem (483, "hamburger", 0, 1,"Hamburger", 4);
+ModPE.setFoodItem (484, "taco", 0, 1, "Taco", 4);
+Item.addShapedRecipe(483, 4, 0, [
  " x ",
  "azy",
  " x "
