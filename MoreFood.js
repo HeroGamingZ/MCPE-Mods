@@ -1,5 +1,4 @@
-ModPE.setFoodItem (483, "hamburger", 0, 1,"Hamburger", 4);
-ModPE.setFoodItem (484, "taco", 0, 1, "Taco", 4);
+ModPE.setFoodItem (483, "hamburger", 0, 2, "Hamburger", 4);
 Item.addShapedRecipe(483,1,0, [
  " x ",
  "azy",
@@ -8,9 +7,9 @@ Item.addShapedRecipe(483,1,0, [
  ["x",297,0,"a",351,0,"z",364,0,"y",351,0]);
 
 function newLevel() {
- clientMessage(ChatColor.YELLOW+"Fast Food mod created by " ChatColor.BLUE+"@HeroGamingZ");
+ clientMessage(ChatColor.YELLOW+"MoreFood mod created by " ChatColor.BLUE+"@HeroGamingZ");
 }
-function procCmd(comand){
+function procCmd(command){
  var cmd = command.split("");
  if(cmd[0] == "recipe"){
   clientMessage(ChatColor.BLUE+"Food Recipes:");
